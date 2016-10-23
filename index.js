@@ -2,7 +2,17 @@ var express = require('express');
 
 var app = express();
 
+app.use(express.static(__dirname + '/public'));
+
+var handlebars = require('express-handlebars').create({defaultLayout:'main'});
+app.engine('handlebars', handlebars.engine);
+app.set('view engine', 'handlebars');
+
 app.set('port', process.env.PORT || 3000);
+
+app.get('/', function(req, res){
+  res.render('home')
+});
 
 // custom 404 page
 app.use(function(req, res){

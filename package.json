@@ -1,0 +1,22 @@
+{
+  "name": "wedding-express",
+  "version": "1.0.0",
+  "description": "Our wedding website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robbiejaeger/wedding-express.git"
+  },
+  "author": "Robbie Jaeger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robbiejaeger/wedding-express/issues"
+  },
+  "homepage": "https://github.com/robbiejaeger/wedding-express#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}

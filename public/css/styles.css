@@ -1,16 +1,41 @@
 body {
   background-color: #EEE;
+  font-family: 'Arima Madurai', sans-serif;
 }
 
-h1, h2, h3, h4 {
-  margin: 10px;
+.container {
+  margin-top: 65px;
+}
+
+/* Header and Navigation */
+
+header {
+  background-color: rgba(128,128,128,0.75);
+  height: 75px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav li {
+  color: black;
+  font-size: 1.5em;
+  padding: 25px 10px;
   text-align: center;
-  font-family: 'Arima Madurai', serif;
 }
 
-h1 {
-  font-size: 4em;
-  color: darkgreen;
+nav a:link {
+    text-decoration: none;
+}
+
+nav a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #EEE;
 }
 
 .photo-card {

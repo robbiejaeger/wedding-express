@@ -1,0 +1,31 @@
+body {
+  background-color: #EEE;
+}
+
+h1, h2, h3, h4 {
+  margin: 0px;
+  text-align: center;
+  font-family: 'Arima Madurai', serif;
+}
+
+h1 {
+  font-size: 4em;
+  color: darkgreen;
+}
+
+.photo-card {
+  background-color: #FFF;
+  box-shadow: 0 3px 6px 0 #BBB, 0 6px 10px 0 #EEE;
+  border: 1px solid #EEE;
+  display: block;
+  margin: auto;
+  margin-top: 40px;
+  padding: 12px;
+  max-width: 50%;
+}
+
+#engagement {
+  border: 1px solid #EEE;
+  max-width: 100%;
+  height: auto;
+}

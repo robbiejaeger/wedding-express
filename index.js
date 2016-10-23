@@ -1,6 +1,7 @@
 var express = require('express');
 
 var app = express();
+var daysRemaining = require('./lib/daysRemaining.js');
 
 app.use(express.static(__dirname + '/public'));
 
@@ -11,7 +12,7 @@ app.set('view engine', 'handlebars');
 app.set('port', process.env.PORT || 3000);
 
 app.get('/', function(req, res){
-  res.render('home');
+  res.render('home', { daysRemaining: daysRemaining.getDaysRemaining() });
 });
 
 // custom 404 page

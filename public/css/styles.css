@@ -3,8 +3,20 @@ body {
   font-family: 'Arima Madurai', sans-serif;
 }
 
-.container {
-  /*margin-top: 75px;*/
+h1 {
+  color: darkgreen;
+  font-size: 3.5em;
+  font-weight: 800;
+  margin: 15px;
+}
+
+h2, h3, h4 {
+  font-size: 1.5em;
+  margin: 10px;
+}
+
+.heavy {
+  font-weight: 600;
 }
 
 /* Header and Navigation */
@@ -43,19 +55,26 @@ nav a:hover {
 .hero {
   background: url('../img/steamboatMaybeAthanAnderson.jpeg') no-repeat;
   background-size: cover;
+  background-color: rgba(0, 0, 0, 0.6);
   height: 1000px;
   opacity: 0.7;
+  position: relative;
 }
+
+/* Photo card */
 
 .photo-card {
   background-color: #FFF;
-  box-shadow: 0 3px 6px 0 #BBB, 0 6px 10px 0 #EEE;
+  /*box-shadow: 0 3px 6px 0 #BBB, 0 6px 10px 0 #EEE;*/
   border: 1px solid #EEE;
   display: block;
   margin: auto;
-  margin-top: 40px;
   padding: 12px;
+  position: absolute;
+  top: 100px;
+  left: 25%;
   max-width: 50%;
+  text-align: center;
 }
 
 #engagement {

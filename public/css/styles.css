@@ -1,13 +1,14 @@
 body {
   background-color: #EEE;
   font-family: 'Arima Madurai', sans-serif;
+  width: 50%;
+  margin: auto;
+  color: #444;
 }
 
 h1 {
-  color: darkgreen;
   font-size: 3.5em;
   font-weight: 800;
-  margin: 15px;
 }
 
 h2, h3, h4 {
@@ -22,63 +23,36 @@ h2, h3, h4 {
 /* Header and Navigation */
 
 header {
-  background-color: rgba(50,50,50,0.75);
-  height: 75px;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 100;
-}
-
-nav li {
-  color: #DDD;
-  font-size: 1.5em;
-  padding: 27px 10px;
+  margin-top: 50px;
   text-align: center;
 }
 
-nav a:link {
-  text-decoration: none;
+nav li {
+  display: inline-block;
+  padding: 10px 15px;
 }
 
-nav a:visited {
+nav a {
+  color: #222;
   text-decoration: none;
-  color: #DDD;
 }
 
 nav a:hover {
   text-decoration: underline;
 }
 
-/* Hero unit */
-
-.hero {
-  background: url('../img/steamboatMaybeAthanAnderson.jpeg') no-repeat;
-  background-size: cover;
-  background-color: rgba(0, 0, 0, 0.6);
-  height: 1000px;
-  opacity: 0.7;
-  position: relative;
-}
-
 /* Photo card */
 
-.photo-card {
-  background-color: #FFF;
+/*.photo-card {*/
+  /*background-color: #FFF;*/
   /*box-shadow: 0 3px 6px 0 #BBB, 0 6px 10px 0 #EEE;*/
-  border: 1px solid #EEE;
-  display: block;
-  margin: auto;
-  padding: 12px;
-  position: absolute;
-  top: 100px;
-  left: 25%;
-  max-width: 50%;
-  text-align: center;
-}
-
-#engagement {
-  border: 1px solid #EEE;
-  max-width: 100%;
-  height: auto;
-}
+  /*border: 1px solid #EEE;*/
+  /*display: block;*/
+  /*margin: auto;*/
+  /*padding: 12px;*/
+  /*position: absolute;*/
+  /*top: 100px;*/
+  /*left: 25%;*/
+  /*max-width: 50%;*/
+  /*text-align: center;*/
+/*}*/

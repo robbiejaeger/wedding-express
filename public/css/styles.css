@@ -29,7 +29,8 @@ header {
 
 nav li {
   display: inline-block;
-  padding: 15px 15px 10px 15px;
+  padding: 10px 20px;
+  margin-top: 10px
 }
 
 nav a {
@@ -39,12 +40,16 @@ nav a {
 }
 
 nav a:hover {
-  border-bottom: 1px solid #222;
+  border-bottom: 1px solid #AAA;
 }
 
 nav a:active {
   color: #AAA;
-  border-bottom: 1px solid #AAA;
+  border-bottom: 1px solid #BBB;
+}
+
+.divider {
+  border-right: 1px solid #DDD;
 }
 
 /* Images */

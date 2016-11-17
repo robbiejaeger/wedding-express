@@ -12,6 +12,7 @@ h1 {
 }
 
 h2, h3, h4 {
+  font-family: 'Halant', serif;
   font-size: 1.5em;
   margin: 12px;
 }
@@ -75,5 +76,5 @@ nav a:active {
 }
 
 .tmp {
-  margin-top: 100px;
+  margin-top: 75px;
 }

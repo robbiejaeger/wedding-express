@@ -1,19 +1,19 @@
 body {
-  background-color: #EEE;
+  background-color: #FFF;
   font-family: 'Arima Madurai', sans-serif;
-  width: 50%;
+  width: 65%;
   margin: auto;
   color: #444;
 }
 
 h1 {
-  font-size: 3.5em;
+  font-size: 4.5em;
   font-weight: 800;
 }
 
 h2, h3, h4 {
   font-size: 1.5em;
-  margin: 10px;
+  margin: 12px;
 }
 
 .heavy {
@@ -23,36 +23,50 @@ h2, h3, h4 {
 /* Header and Navigation */
 
 header {
-  margin-top: 50px;
+  margin-top: 60px;
   text-align: center;
 }
 
 nav li {
   display: inline-block;
-  padding: 10px 15px;
+  padding: 15px 15px 10px 15px;
 }
 
 nav a {
   color: #222;
+  font-size: 1em;
   text-decoration: none;
 }
 
 nav a:hover {
-  text-decoration: underline;
+  border-bottom: 1px solid #222;
 }
 
-/* Photo card */
+nav a:active {
+  color: #AAA;
+  border-bottom: 1px solid #AAA;
+}
 
-/*.photo-card {*/
-  /*background-color: #FFF;*/
-  /*box-shadow: 0 3px 6px 0 #BBB, 0 6px 10px 0 #EEE;*/
-  /*border: 1px solid #EEE;*/
-  /*display: block;*/
-  /*margin: auto;*/
-  /*padding: 12px;*/
-  /*position: absolute;*/
-  /*top: 100px;*/
-  /*left: 25%;*/
-  /*max-width: 50%;*/
-  /*text-align: center;*/
-/*}*/
+/* Images */
+
+.top-img {
+  display: block;
+  margin: 20px auto 30px auto;
+  width: 750px;
+}
+
+/* Content */
+
+.main-content {
+  width: 90%;
+  margin: auto;
+}
+
+.centered {
+  width: 50%%;
+  text-align: center;
+}
+
+.tmp {
+  margin-top: 100px;
+}

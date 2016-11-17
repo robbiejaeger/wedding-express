@@ -1,7 +1,7 @@
 body {
   background-color: #FFF;
   font-family: 'Arima Madurai', sans-serif;
-  width: 65%;
+  max-width: 800px;
   margin: auto;
   color: #444;
 }
@@ -37,10 +37,12 @@ nav a {
   color: #222;
   font-size: 1em;
   text-decoration: none;
+  border-bottom: 1px solid #FFF;
 }
 
 nav a:hover {
   border-bottom: 1px solid #AAA;
+  transition: border-color 0.4s ease;
 }
 
 nav a:active {
@@ -57,7 +59,7 @@ nav a:active {
 .top-img {
   display: block;
   margin: 20px auto 30px auto;
-  width: 750px;
+  width: 100%;
 }
 
 /* Content */

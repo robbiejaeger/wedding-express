@@ -1,18 +1,27 @@
 body {
   background-color: #FFF;
-  font-family: 'Arima Madurai', sans-serif;
-  max-width: 800px;
-  margin: auto;
   color: #444;
+  font-family: 'EB Garamond', serif;
+  margin: auto;
+  max-width: 800px;
 }
 
 h1 {
-  font-size: 4.5em;
-  font-weight: 800;
+  font-family: 'Arima Madurai', sans-serif;
+  font-size: 5em;
+  font-weight: 400;
 }
 
 h2, h3, h4 {
-  font-family: 'Halant', serif;
+  font-family: 'EB Garamond', serif;
+}
+
+h2 {
+  font-size: 2em;
+  margin: 12px;
+}
+
+h3 {
   font-size: 1.5em;
   margin: 12px;
 }
@@ -24,19 +33,21 @@ h2, h3, h4 {
 /* Header and Navigation */
 
 header {
-  margin-top: 60px;
+  margin-top: 45px;
   text-align: center;
 }
 
 nav li {
   display: inline-block;
   padding: 10px 20px;
-  margin-top: 10px
+  margin-top: 5px
 }
 
 nav a {
+  font-family: 'Pontano Sans', sans-serif;
   color: #222;
   font-size: 1em;
+  padding-bottom: 3px;
   text-decoration: none;
   border-bottom: 1px solid #FFF;
 }
@@ -76,5 +87,5 @@ nav a:active {
 }
 
 .tmp {
-  margin-top: 75px;
+  margin-top: 50px;
 }

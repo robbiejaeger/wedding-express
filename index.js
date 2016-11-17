@@ -27,6 +27,11 @@ app.get('/reception', function(req, res){
   res.render('reception');
 });
 
+app.get('/registry', function(req, res){
+  res.render('registry');
+});
+
+
 // custom 404 page
 app.use(function(req, res){
   res.status(404);

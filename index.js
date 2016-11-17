@@ -15,6 +15,18 @@ app.get('/', function(req, res){
   res.render('home', { daysRemaining: daysRemaining.getDaysRemaining() });
 });
 
+app.get('/lodging', function(req, res){
+  res.render('lodging');
+});
+
+app.get('/ceremony', function(req, res){
+  res.render('ceremony');
+});
+
+app.get('/reception', function(req, res){
+  res.render('reception');
+});
+
 // custom 404 page
 app.use(function(req, res){
   res.status(404);

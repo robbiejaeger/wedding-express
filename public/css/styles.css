@@ -75,6 +75,12 @@ nav a:active {
   width: 100%;
 }
 
+.body-img {
+  display: block;
+  margin: 20px auto 30px auto;
+  width: 100%;
+}
+
 /* Content */
 
 .main-content {

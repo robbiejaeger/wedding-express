@@ -15,16 +15,16 @@ app.get('/', function(req, res){
   res.render('home', { daysRemaining: daysRemaining.getDaysRemaining() });
 });
 
-app.get('/lodging', function(req, res){
-  res.render('lodging');
+app.get('/travel', function(req, res){
+  res.render('travel');
 });
 
-app.get('/ceremony', function(req, res){
-  res.render('ceremony');
+app.get('/wedding', function(req, res){
+  res.render('wedding');
 });
 
-app.get('/reception', function(req, res){
-  res.render('reception');
+app.get('/steamboatAttractions', function(req, res){
+  res.render('steamboatAttractions');
 });
 
 app.get('/registry', function(req, res){

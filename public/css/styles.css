@@ -103,3 +103,11 @@ p {
 .tmp {
   margin-top: 50px;
 }
+
+/* Maps */
+
+#hotel-map {
+  height: 400px;
+  background-color: lightgrey;
+  text-align: center;
+}

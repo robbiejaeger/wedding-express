@@ -97,17 +97,31 @@ nav a:active {
 p {
   font-size: 1.25em;
   margin-bottom: 12px;
-  line-height: 110%
+  line-height: 120%
+}
+
+article {
+  margin-bottom: 25px;
 }
 
 .tmp {
   margin-top: 50px;
 }
 
+h3 {
+  margin-top: 25px;
+}
+
 /* Maps */
 
 #hotel-map {
-  height: 400px;
+  border: 2px solid lightgrey;
+  height: 500px;
   background-color: lightgrey;
-  text-align: center;
+}
+
+.info-window h1 {
+  font-family: sans-serif;
+  font-size: 2em;
+  margin-bottom: 10px;
 }

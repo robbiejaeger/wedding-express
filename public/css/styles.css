@@ -1,5 +1,5 @@
 body {
-  background-color: #FFF;
+  background-color: #F6F6F6;
   color: #444;
   font-family: 'EB Garamond', serif;
   margin: 0px auto 50px auto;
@@ -13,7 +13,7 @@ h1 {
 }
 
 h2, h3, h4 {
-  font-family: 'EB Garamond', serif;
+  font-family: 'Pontano Sans', sans-serif;
 }
 
 h2 {
@@ -51,7 +51,7 @@ nav a {
   font-size: 1em;
   padding-bottom: 3px;
   text-decoration: none;
-  border-bottom: 1px solid #FFF;
+  border-bottom: 1px solid #F6F6F6;
 }
 
 nav a:hover {
@@ -68,15 +68,35 @@ nav a:active {
   border-right: 1px solid #DDD;
 }
 
+/* General Links */
+
+a:hover {
+  cursor: pointer;
+}
+
+section a {
+  border-bottom: 1px solid #BBB;
+  color: #555;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+section a:hover {
+  border-bottom: 2px solid #333;
+  transition: border-color 0.3s ease;
+}
+
 /* Images */
 
 .top-img {
+  border: 1px solid lightgray;
   display: block;
   margin: 20px auto 30px auto;
   width: 100%;
 }
 
 .body-img {
+  border: 1px solid lightgray;
   display: block;
   margin: 20px auto 30px auto;
   width: 100%;
@@ -90,14 +110,13 @@ nav a:active {
 }
 
 .centered {
-  width: 50%%;
   text-align: center;
 }
 
 p {
   font-size: 1.25em;
   margin-bottom: 12px;
-  line-height: 120%
+  line-height: 130%
 }
 
 article {
@@ -111,6 +130,17 @@ article {
 h3 {
   margin-top: 25px;
 }
+
+hr {
+  border: 1px solid lightgrey;
+  margin: 30px auto;
+  width: 60%;
+}
+
+hr.long {
+  width: 85%;
+}
+
 
 /* Maps */
 

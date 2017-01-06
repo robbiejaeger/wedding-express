@@ -19,8 +19,8 @@ app.get('/travel', function(req, res){
   res.render('travel');
 });
 
-app.get('/wedding', function(req, res){
-  res.render('wedding');
+app.get('/weddingEvents', function(req, res){
+  res.render('weddingEvents');
 });
 
 app.get('/steamboatAttractions', function(req, res){

@@ -1,14 +1,14 @@
 var express = require('express');
-
-var app = express();
+var handlebars = require('express-handlebars').create({defaultLayout:'main'});
+var favicon = require('serve-favicon');
 var daysRemaining = require('./lib/daysRemaining.js');
 
-app.use(express.static(__dirname + '/public'));
+var app = express();
 
-var handlebars = require('express-handlebars').create({defaultLayout:'main'});
+app.use(express.static(__dirname + '/public'));
+app.use(favicon(__dirname + '/public/img/favicon.ico'));
 app.engine('handlebars', handlebars.engine);
 app.set('view engine', 'handlebars');
-
 app.set('port', process.env.PORT || 3000);
 
 app.get('/', function(req, res){

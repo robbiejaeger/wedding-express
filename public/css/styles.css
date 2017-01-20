@@ -52,6 +52,7 @@ nav a {
   padding-bottom: 3px;
   text-decoration: none;
   border-bottom: 1px solid #F6F6F6;
+  transition: border-color 0.2s ease;
 }
 
 nav a:hover {
@@ -76,6 +77,7 @@ a:hover {
 
 section a {
   border-bottom: 1px solid #AAA;
+  transition: border-color 0.2s ease;
   color: #222;
   text-decoration: none;
 }

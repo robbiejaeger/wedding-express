@@ -155,3 +155,10 @@ hr.long {
   font-size: 2em;
   margin-bottom: 10px;
 }
+
+#date-info {
+  background-color: #FFF;
+  border: 1px solid lightgray;
+  margin: 25px auto;
+  padding-top: 10px;
+}

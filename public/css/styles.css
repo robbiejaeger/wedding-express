@@ -2,7 +2,7 @@ body {
   background-color: #F6F6F6;
   color: #444;
   font-family: 'EB Garamond', serif;
-  margin: 0 auto 0 auto;
+  margin: 0 auto 80px auto;
   max-width: 800px;
 }
 
@@ -136,14 +136,6 @@ hr {
 
 hr.long {
   width: 85%;
-}
-
-footer {
-  color: #666;
-  font-family: 'Pontano Sans', sans-serif;
-  font-size: 0.8em;
-  margin-top: 60px;
-  text-align: center;
 }
 
 /* Maps */

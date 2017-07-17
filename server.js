@@ -5,7 +5,15 @@ var daysRemaining = require('./lib/daysRemaining.js');
 
 var app = express();
 
+function requireHTTPS(req, res, next){
+  if (req.headers['x-forwarded-proto'] != 'https') {
+      return res.redirect('https://' + req.get('host') + req.url);
+  }
+  next();
+};
+
 app.use(express.static(__dirname + '/public'));
+if (process.env.NODE_ENV === 'production') {app.use(requireHTTPS);}
 app.use(favicon(__dirname + '/public/img/favicon.ico'));
 app.engine('handlebars', handlebars.engine);
 app.set('view engine', 'handlebars');
@@ -43,5 +51,5 @@ app.use(function(err, req, res, next){
 });
 
 app.listen(app.get('port'), function(){
-  console.log(`Wedding Express started on localhost:${app.get('port')}`);
+  console.log('Express started on localhost:' + app.get('port'));
 });

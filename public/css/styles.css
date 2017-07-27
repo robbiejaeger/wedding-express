@@ -212,7 +212,7 @@ hr.long {
   padding-top: 10px;
 }
 
-#schedule-info {
+.schedule-info {
   background-color: #FFF;
   border: 1px solid lightgray;
   padding: 5px 15px; 

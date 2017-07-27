@@ -75,6 +75,16 @@ nav a:active {
   border-right: 1px solid #DDD;
 }
 
+.on-page-nav {
+  margin: 50px 0;
+  text-align: center;
+}
+
+.on-page-nav li {
+  margin: 25px 0;
+  font-size: 1.5em;
+}
+
 /* Footer */
 
 html {
@@ -200,4 +210,10 @@ hr.long {
   border: 1px solid lightgray;
   margin: 25px auto;
   padding-top: 10px;
+}
+
+.schedule-info {
+  background-color: #FFF;
+  border: 1px solid lightgray;
+  padding: 5px 15px; 
 }

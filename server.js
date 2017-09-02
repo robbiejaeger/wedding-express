@@ -20,7 +20,7 @@ app.set('view engine', 'handlebars');
 app.set('port', process.env.PORT || 3000);
 
 app.get('/', function(req, res){
-  res.render('home', { daysRemaining: daysRemaining.getDaysRemaining() });
+  res.render('home');
 });
 
 app.get('/travel', function(req, res){
